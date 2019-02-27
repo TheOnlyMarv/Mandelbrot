@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="SzarkEngine.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CoreCompat.System.Drawing" Version="1.0.0-beta006" />
     <PackageReference Include="NAudio" Version="1.9.0-preview2" />
     <PackageReference Include="OpenTK.NETCore" Version="1.1.2570.6426" />
@@ -13,7 +17,7 @@
 
   <ItemGroup>
     <Reference Include="SzarkEngine">
-      <HintPath>..\..\..\..\Desktop\SzarkEngine.dll</HintPath>
+      <HintPath>SzarkEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
 
